@@ -1,0 +1,561 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:"Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.main {
+    background-color: white;
+    position: fixed ;
+    top: 0px;
+    width: 100%;
+    height: 72px;
+    z-index: 2;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+  
+}
+
+.signIn {
+    text-decoration: none;
+    background-color: #f54627;
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 12px;
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    right: 140px;
+}
+
+.signUp {
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+    font-size: 1.5rem;
+    padding: 10px 12px;
+    border-radius: 30px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+.signIn:hover{
+    background-color:#2bdba1;
+} 
+
+.signUp:hover{
+    background-color:#2bdba1;
+}
+
+
+.row-1{
+    background-image: url('https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/hero_v3/hero_desktop.png');
+    background-size: cover;
+    color: white;
+    position: relative;
+    height: 600px;
+}
+
+.row-s-1 a{
+    color: #f54627;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.searchRestuarant{
+    position: absolute;
+    font-size: 1.5rem;
+    top: 370px;
+    left: 680px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#searchAddressText{
+    font-size: 1.5rem;
+    width: 350px;
+    padding: 22px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.address_signin{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.container-1{
+    position: relative;
+    height: 550px;
+}
+
+.row-s-1{
+    position: absolute;
+    font-size: 1.75rem;
+    top: 50px;
+    padding: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.row-s-1 h2{
+    font-size: 3rem;
+    line-height: 1.2;
+
+}
+.img_scoot{
+    position: absolute;
+    width: 20%;
+    left: 100px;
+    line-height: 1.5;
+}
+
+.img_storefront{
+    position: absolute;
+    width: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 1.5;
+}
+
+.img_phone{
+    position: absolute;
+    width: 20%;
+    right: 180px;
+    line-height: 1.5;
+}
+
+.row-s-1 > div > a{
+  text-decoration: none;
+}
+
+
+.container-2{
+    position: relative;
+    height: 525px;
+}
+
+div h2{
+    font-size: 4rem; 
+    margin-bottom: 30px;
+}
+
+div h3{
+    font-size: 2.8rem; 
+    margin-bottom: 18px;
+}
+
+div p{
+    font-size: 1.57rem; 
+    word-spacing: 2px; 
+    line-height: 1.5;
+}
+
+.row-s-2{
+    position: absolute;
+    padding: 50px;
+    height: 900px;
+    width: 100%;
+}
+
+.row-s-2-1{
+    position: absolute;
+    left: 120px;
+    top: 150px;
+}
+
+.row-s-2-img{
+    position: absolute;
+    right:  70px;
+    top: 50px;
+    
+    
+}
+
+.btn-2-1, .btn-3-1, .btn-4-1, 
+.btn-5-1, .btn-6-1, .btn-6-2,
+.btn-6-3, .btn-6-4, .btn-7-1,
+.btn-8-1{
+    font-size: 1.5rem; 
+    margin-top: 40px;
+}
+
+.row-s-2-button, .row-s-3-button, 
+.row-s-4-button, .row-s-5-button, 
+.row-s-6-button, .row-s-7-button,
+.row-s-8-button{
+    background-color: #ec1d16;
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.row-s-2-button:hover, .row-s-3-button:hover, 
+.row-s-4-button:hover, .row-s-5-button:hover, 
+.row-s-6-button:hover, .row-s-7-button:hover,
+.row-s-8-button:hover{
+    background-color: #2bdba1;
+    color: white;
+}
+
+.container-3{
+    background-color: #fef1ee;
+    height: 620px;
+    position: relative;
+}
+
+.row-s-3-img{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.row-s-3-1{
+    position: absolute;
+    right: 110px;
+    bottom: 200px;
+}
+
+.container-4{
+    position: relative;
+    background-image: url('https://img.cdn4dd.com/cdn-cgi/image/fit=cover,format=auto,quality=60/https://cdn.doordash.com/managed/consumer/seo/home/landing_cta/grocery_desktop.png');
+    background-size: cover;
+    height: 600px;
+}
+
+.row-s-4{
+    background-color: rgba(30, 30, 30, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+
+.row-s-4-1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.container-5{
+    position: relative;
+    height: 550px;
+   
+}
+
+.row-s-5-1{
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+
+.row-s-5-2{
+    position: absolute;
+    top: 60px;
+    right: 110px;
+}
+
+.container-6{
+    position: relative;
+    height: 1830px;
+    background-color: #fef1ee;
+}
+
+.container-6 > div img{
+    width: 500px;
+    height: 523px;
+    margin-bottom: 20px;
+}
+
+.row-s-6-toptext{
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.row-s-6-1{
+    position: absolute;
+    left: 120px;
+    top: 200px;
+}
+
+.row-s-6-1-text, .row-s-6-2-text, 
+.row-s-6-3-text{
+    text-align: center;
+}
+
+.row-s-6-2{
+    position: absolute;
+    top: 200px;
+    right: 120px;
+
+}
+
+.row-s-6-3{
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+}
+
+.row-s-6-4{
+    position: absolute;
+    right: 120px;
+    bottom: 30px;
+}
+
+.container-7{
+    position: relative;
+    height: 660px;
+}
+
+.row-s-7-1-text{
+    position: absolute;
+    left: 120px;
+    bottom: 100px;
+}
+
+.row-s-7-img{
+    position: absolute;
+    right: 120px;
+    top: 200px;
+    
+}
+
+.row-s-7-toptext{
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container-8{
+    position: relative;
+    height: 600px;
+    background-color: #fef1ee;
+}
+
+.row-s-8-img{
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+}
+
+.row-s-8-1-text{
+    position: absolute;
+    right: 120px;
+    bottom: 180px;
+}
+
+.container-9{
+    position: relative;
+    height: 350px;
+}
+
+.row-s-9-toptext{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    font-size: 2rem;
+    transform: translateX(-50%);
+}
+
+.row-s-9-1{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    width: 1200px;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.row-s-9-1 h3{
+    display: inline-block;
+    width: 395px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 0px;
+}
+
+.row-s-9-1 h3:hover{
+    background-color: rgba(237, 230, 230, 0.3);
+}
+
+.row-s-9-table{
+    position: absolute;
+    bottom: 45px;
+    width: 1200px;
+    font-size: 1.45rem;
+    font-weight: 20px;
+    left: 120px;
+}
+
+table{
+    width: 1200px;
+    text-align: center;
+}
+
+table, td{
+    border: none;
+    padding: 10px;
+}
+
+td:hover{
+    background-color: rgba(237, 230, 230, 0.3);
+    opacity: 0.8;
+}
+
+footer{
+    position: relative;
+    height: 700px;
+    background-color: #2e2e37;
+}
+
+.footer-s-1{
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    font-size: 1.54rem;
+    line-height: 2.5;
+    color: white;
+}
+
+.footer-s-1 a, .footer-s-2 a, 
+.footer-s-3 a, .footer-s-4 a,
+.footer-s-5 a, .footer-s-6 a,
+.footer-s-7 a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-s-1 a:hover, .footer-s-2 a:hover, 
+.footer-s-3 a:hover, .footer-s-4 a:hover,
+.footer-s-5 a:hover, .footer-s-6 a:hover,
+.footer-s-7 a:hover{
+    text-decoration: underline;
+    color: white;
+    opacity: 1;
+}
+
+.footer-s-1 p, .footer-s-2 p, 
+.footer-s-3 p,.footer-s-4 p,
+.footer-s-5 p, .footer-s-6 p,
+.footer-s-7 p{
+    padding: 2.5px;
+    font-size: small;
+}
+
+.footer-s-2{
+    position: absolute;
+    top: 80px;
+    left: 420px;
+    line-height: 2.5;
+}
+
+.footer-s-3{
+    position: absolute;
+    top: 80px;
+    right: 620px;
+}
+
+.footer-s-4{
+    position: absolute;
+    top: 80px;
+    right: 320px;
+}
+
+.footer-s-5{
+    position: absolute;
+    font-size: 1.54rem;
+    color: white;
+    bottom: 100px;
+    left: 120px;
+}
+
+.footer-s-6{
+    position: absolute;
+    font-size: 1.54rem;
+    left: 330px;
+    top: 240px;
+}
+
+.footer-s-6 h4, 
+.footer-s-7 h4{
+    color: white;
+}
+
+.footer-s-7{
+    position: absolute;
+    font-size: 1.54rem;
+    top: 240px;
+    left: 540px;
+}
+
+.footer-s-8{
+    position: absolute;
+    right: 120px;
+    top: 240px;
+}
+
+.footer-s-8-1, .footer-s-8-2{
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 1px 8px;
+    text-align: center;
+    background-color: #494949;
+}
+
+.footer-s-8-1 a, .footer-s-8-2 a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+.footer-s-8-1 a:hover, .footer-s-8-2 a:hover{
+    color: white;
+    opacity: 1;
+}
+
+.footer-s-9{
+    position: absolute;
+    left: 120px;
+    bottom: 40px;
+}
+
+.footer-s-9 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.footer-s-9 a:hover{
+    text-decoration: underline;
+    color: white;
+    opacity: 1;
+}
